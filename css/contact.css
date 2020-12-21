@@ -1,0 +1,69 @@
+html  {background:url(wallpapergood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+header{background-image:linear-gradient(to top,gold,white) ;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+h1{text-align: center;}
+
+ul{text-align: center;
+background-color: hsl(46,80%,52%)}
+
+li{display: inline-block;
+margin-right: 5%;
+margin-left: 5%;
+font-size: 150%;
+}   
+a{color:black;}
+a:hover{color:green;} 
+
+#contact_form{display:block;
+    margin-right: auto;
+    margin-left:auto;
+    width:60%;
+    background-color:rgba(0, 0,0,0.4);
+} 
+
+label{display:inline-block;
+    width:100px;
+    color:white;
+    margin-left:6%;
+    margin-top:2%;
+    font-size:15px;
+}
+
+label[for="fname"]{margin-top: 3%;}
+
+label[for="usertext"]{margin-bottom: 1%;}
+
+#usertext{display:block;
+margin-left:6%;
+width:  85%;
+height:200px;}
+
+
+[type="button"]{margin-left: 6%;
+}
+
+
+p{color:white;
+display:block;
+font-size: 13px;
+margin-left: 6%;}
+
+#facebook{margin-left: 35%;}/* to temporarily center the three font logos starting with fb logo
+Note:Will use flexbox to finally center the three logos*/
+#contacts>a{color:skyblue;}
+#contacts>a:hover{color:green;}
+#contacts>a>i{margin-bottom: 5%;}
+
+
+

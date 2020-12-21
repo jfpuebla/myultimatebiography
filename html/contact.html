@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact page</title>
+    <link rel="stylesheet" style="text/css" href="../css/contact.css">
+    <script src="https://kit.fontawesome.com/e1ceba1729.js" crossorigin="anonymous"></script> 
+    <!--code above is for accessing font awesome in either browser or local, no need to 
+    use local link-->
+</head>
+
+<body>
+    <header>
+        <h1>My Ultimate Biography</h1>
+        <nav>
+            <ul>
+                <a href="../index.html"><li>Home</li></a>
+                <a href="personal-details.html"><li>Personal Details</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contact_form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your First Name" required="nice wan"><br>
+        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Last Name"><br>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="Email" placeholder="Enter your email here"><br>
+
+        <label for="usertext">Questions/Feedback</label>
+        <textarea type="text" id="usertext" name="user's text"
+         placeholder="Type here your questions or feedback"></textarea><br>
+         <!--Line 35-36 uses textarea instead of input, so that placeholder will always be placed
+        on top unlike the input's placeholder always following the input's width and height-->
+
+        <input type="button" value="Submit">
+
+    
+
+        <div id="contacts">
+        <p>To contact me through other social media platforms,
+            use these three social media below</p>
+            <a    href="https://www.facebook.com" target="_blank">
+                <i id="facebook" class="fab fa-facebook-messenger fa-3x my-fancy-container"></i></a> 
+
+            <a  href="https://twitter.com" target="_blank"> 
+                <i id="twitter" class="fab fa-twitter fa-3x my-fancy-container"></i> </a>
+
+            <a   href="https://outlook.office.com/mail/inbox" target="_blank"> 
+                <i id="gmail" class="fas fa-envelope fa-3x my-fancy-container"></i> </a>
+        </div>
+    
+    </div>
+
+</body>
+
+<footer>
+
+
+</footer>
+
+</html>
